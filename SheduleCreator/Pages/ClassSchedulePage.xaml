@@ -14,7 +14,6 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Кнопка "Назад" -->
         <Button Content="Назад" Click="Back_Click" HorizontalAlignment="Left" Margin="10" Padding="10"/>
 
         <!-- Таблицы для каждого класса -->
@@ -22,86 +21,182 @@
             <StackPanel>
                 <!-- Класс 1 -->
                 <TextBlock Text="Класс 1" FontWeight="Bold" Margin="10,10,10,5"/>
-                <DataGrid x:Name="Class1Grid" AutoGenerateColumns="False" Margin="10">
+                <Button Content="Добавить строку" Click="AddDefaultRow_Click" Tag="Class1" Margin="0,0,10,0" Padding="5"/>
+                <DataGrid x:Name="Class1Grid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="False">
                     <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Удалить" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="❌" Click="DeleteRow_Click" Padding="2" FontSize="10"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Предмет" Binding="{Binding Subject}" Width="*"/>
                         <DataGridTextColumn Header="Часов в неделю" Binding="{Binding HoursPerWeek}" Width="*"/>
+                        <DataGridTextColumn Header="Преподаватель" Binding="{Binding Teacher}" Width="*"/>
+                        <DataGridTextColumn Header="Сложность" Binding="{Binding Difficulty}" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
                 <!-- Класс 2 -->
                 <TextBlock Text="Класс 2" FontWeight="Bold" Margin="10,10,10,5"/>
-                <DataGrid x:Name="Class2Grid" AutoGenerateColumns="False" Margin="10">
+                <Button Content="Добавить строку" Click="AddDefaultRow_Click" Tag="Class2" Margin="0,0,10,0" Padding="5"/>
+                <DataGrid x:Name="Class2Grid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="False">
                     <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Удалить" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="❌" Click="DeleteRow_Click" Padding="2" FontSize="10"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Предмет" Binding="{Binding Subject}" Width="*"/>
                         <DataGridTextColumn Header="Часов в неделю" Binding="{Binding HoursPerWeek}" Width="*"/>
+                        <DataGridTextColumn Header="Преподаватель" Binding="{Binding Teacher}" Width="*"/>
+                        <DataGridTextColumn Header="Сложность" Binding="{Binding Difficulty}" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
                 <!-- Повторите для остальных классов (3-9) -->
                 <!-- Класс 3 -->
                 <TextBlock Text="Класс 3" FontWeight="Bold" Margin="10,10,10,5"/>
-                <DataGrid x:Name="Class3Grid" AutoGenerateColumns="False" Margin="10">
+                <Button Content="Добавить строку" Click="AddDefaultRow_Click" Tag="Class3" Margin="0,0,10,0" Padding="5"/>
+                <DataGrid x:Name="Class3Grid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="False">
                     <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Удалить" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="❌" Click="DeleteRow_Click" Padding="2" FontSize="10"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Предмет" Binding="{Binding Subject}" Width="*"/>
                         <DataGridTextColumn Header="Часов в неделю" Binding="{Binding HoursPerWeek}" Width="*"/>
+                        <DataGridTextColumn Header="Преподаватель" Binding="{Binding Teacher}" Width="*"/>
+                        <DataGridTextColumn Header="Сложность" Binding="{Binding Difficulty}" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
                 <!-- Класс 4 -->
                 <TextBlock Text="Класс 4" FontWeight="Bold" Margin="10,10,10,5"/>
-                <DataGrid x:Name="Class4Grid" AutoGenerateColumns="False" Margin="10">
+                <Button Content="Добавить строку" Click="AddDefaultRow_Click" Tag="Class4" Margin="0,0,10,0" Padding="5"/>
+                <DataGrid x:Name="Class4Grid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="False">
                     <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Удалить" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="❌" Click="DeleteRow_Click" Padding="2" FontSize="10"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Предмет" Binding="{Binding Subject}" Width="*"/>
                         <DataGridTextColumn Header="Часов в неделю" Binding="{Binding HoursPerWeek}" Width="*"/>
+                        <DataGridTextColumn Header="Преподаватель" Binding="{Binding Teacher}" Width="*"/>
+                        <DataGridTextColumn Header="Сложность" Binding="{Binding Difficulty}" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
                 <!-- Класс 5 -->
                 <TextBlock Text="Класс 5" FontWeight="Bold" Margin="10,10,10,5"/>
-                <DataGrid x:Name="Class5Grid" AutoGenerateColumns="False" Margin="10">
+                <Button Content="Добавить строку" Click="AddDefaultRow_Click" Tag="Class5" Margin="0,0,10,0" Padding="5"/>
+                <DataGrid x:Name="Class5Grid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="False">
                     <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Удалить" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="❌" Click="DeleteRow_Click" Padding="2" FontSize="10"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Предмет" Binding="{Binding Subject}" Width="*"/>
                         <DataGridTextColumn Header="Часов в неделю" Binding="{Binding HoursPerWeek}" Width="*"/>
+                        <DataGridTextColumn Header="Преподаватель" Binding="{Binding Teacher}" Width="*"/>
+                        <DataGridTextColumn Header="Сложность" Binding="{Binding Difficulty}" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
                 <!-- Класс 6 -->
                 <TextBlock Text="Класс 6" FontWeight="Bold" Margin="10,10,10,5"/>
-                <DataGrid x:Name="Class6Grid" AutoGenerateColumns="False" Margin="10">
+                <Button Content="Добавить строку" Click="AddDefaultRow_Click" Tag="Class6" Margin="0,0,10,0" Padding="5"/>
+                <DataGrid x:Name="Class6Grid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="False">
                     <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Удалить" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="❌" Click="DeleteRow_Click" Padding="2" FontSize="10"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Предмет" Binding="{Binding Subject}" Width="*"/>
                         <DataGridTextColumn Header="Часов в неделю" Binding="{Binding HoursPerWeek}" Width="*"/>
+                        <DataGridTextColumn Header="Преподаватель" Binding="{Binding Teacher}" Width="*"/>
+                        <DataGridTextColumn Header="Сложность" Binding="{Binding Difficulty}" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
                 <!-- Класс 7 -->
                 <TextBlock Text="Класс 7" FontWeight="Bold" Margin="10,10,10,5"/>
-                <DataGrid x:Name="Class7Grid" AutoGenerateColumns="False" Margin="10">
+                <Button Content="Добавить строку" Click="AddDefaultRow_Click" Tag="Class7" Margin="0,0,10,0" Padding="5"/>
+                <DataGrid x:Name="Class7Grid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="False">
                     <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Удалить" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="❌" Click="DeleteRow_Click" Padding="2" FontSize="10"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Предмет" Binding="{Binding Subject}" Width="*"/>
                         <DataGridTextColumn Header="Часов в неделю" Binding="{Binding HoursPerWeek}" Width="*"/>
+                        <DataGridTextColumn Header="Преподаватель" Binding="{Binding Teacher}" Width="*"/>
+                        <DataGridTextColumn Header="Сложность" Binding="{Binding Difficulty}" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
                 <!-- Класс 8 -->
                 <TextBlock Text="Класс 8" FontWeight="Bold" Margin="10,10,10,5"/>
-                <DataGrid x:Name="Class8Grid" AutoGenerateColumns="False" Margin="10">
+                <Button Content="Добавить строку" Click="AddDefaultRow_Click" Tag="Class8" Margin="0,0,10,0" Padding="5"/>
+                <DataGrid x:Name="Class8Grid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="False">
                     <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Удалить" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="❌" Click="DeleteRow_Click" Padding="2" FontSize="10"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Предмет" Binding="{Binding Subject}" Width="*"/>
                         <DataGridTextColumn Header="Часов в неделю" Binding="{Binding HoursPerWeek}" Width="*"/>
+                        <DataGridTextColumn Header="Преподаватель" Binding="{Binding Teacher}" Width="*"/>
+                        <DataGridTextColumn Header="Сложность" Binding="{Binding Difficulty}" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
                 <!-- Класс 9 -->
                 <TextBlock Text="Класс 9" FontWeight="Bold" Margin="10,10,10,5"/>
-                <DataGrid x:Name="Class9Grid" AutoGenerateColumns="False" Margin="10">
+                <Button Content="Добавить строку" Click="AddDefaultRow_Click" Tag="Class9" Margin="0,0,10,0" Padding="5"/>
+                <DataGrid x:Name="Class9Grid" AutoGenerateColumns="False" Margin="10" CanUserAddRows="False">
                     <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Удалить" Width="Auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="❌" Click="DeleteRow_Click" Padding="2" FontSize="10"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="Предмет" Binding="{Binding Subject}" Width="*"/>
                         <DataGridTextColumn Header="Часов в неделю" Binding="{Binding HoursPerWeek}" Width="*"/>
+                        <DataGridTextColumn Header="Преподаватель" Binding="{Binding Teacher}" Width="*"/>
+                        <DataGridTextColumn Header="Сложность" Binding="{Binding Difficulty}" Width="*"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </StackPanel>
         </ScrollViewer>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="80 0 0 0">
+            <Button Content="Сохранить" Click="Save_Click" Margin="5" Padding="10"/>
+            <Button Content="Импорт" Click="Import_Click" Margin="5" Padding="10"/>
+            <Button Content="Экспорт" Click="Export_Click" Margin="5" Padding="10"/>
+            <Button Content="Очистить все" Click="ClearAll_Click" Margin="5" Padding="10"/>
+        </StackPanel>
     </Grid>
 </Page>

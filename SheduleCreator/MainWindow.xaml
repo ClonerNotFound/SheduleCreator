@@ -9,9 +9,6 @@
     <Grid>
         <!-- Главный контент -->
         <StackPanel x:Name="MainContent" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Button Content="Просмотр предметов и учителей" Click="ViewSubjectsTeachers_Click" Margin="10" Padding="10"/>
-            <Button Content="Изменить список предметов" Click="EditSubjects_Click" Margin="10" Padding="10"/>
-            <Button Content="Изменить список учителей" Click="EditTeachers_Click" Margin="10" Padding="10"/>
             <Button Content="Расписание классов" Click="ClassSchedule_Click" Margin="10" Padding="10"/>
         </StackPanel>
 

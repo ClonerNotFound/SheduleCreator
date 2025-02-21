@@ -28,21 +28,6 @@ namespace SheduleCreator
             MainFrame.Visibility = Visibility.Visible; // Показываем MainFrame
             MainContent.Visibility = Visibility.Collapsed; // Скрываем главный контент
         }
-
-        private void ViewSubjectsTeachers_Click(object sender, RoutedEventArgs e)
-        {
-            NavigateToPage(new ViewSubjectsTeachersPage());
-        }
-
-        private void EditSubjects_Click(object sender, RoutedEventArgs e)
-        {
-            NavigateToPage(new EditSubjectsPage(this));
-        }
-
-        private void EditTeachers_Click(object sender, RoutedEventArgs e)
-        {
-            NavigateToPage(new EditTeachersPage(this));
-        }
         private void ClassSchedule_Click(object sender, RoutedEventArgs e)
         {
             NavigateToPage(new ClassSchedulePage(this));

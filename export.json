@@ -1,0 +1,770 @@
+{
+  "Class1": [
+    {
+      "Subject": "Рус. яз.",
+      "HoursPerWeek": 5,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": null
+    },
+    {
+      "Subject": "Лит. чт.",
+      "HoursPerWeek": 4,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": null
+    },
+    {
+      "Subject": "Родной рус. яз.",
+      "HoursPerWeek": 1,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": null
+    },
+    {
+      "Subject": "Лит. чт. на родном рус. яз.",
+      "HoursPerWeek": 1,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": null
+    },
+    {
+      "Subject": "Математика",
+      "HoursPerWeek": 4,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": null
+    },
+    {
+      "Subject": "Окр. мир",
+      "HoursPerWeek": 2,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": null
+    },
+    {
+      "Subject": "Технология",
+      "HoursPerWeek": 1,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": null
+    },
+    {
+      "Subject": "Музыка",
+      "HoursPerWeek": 1,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": null
+    },
+    {
+      "Subject": "ИЗО",
+      "HoursPerWeek": 1,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": ""
+    }
+  ],
+  "Class2": [
+    {
+      "Subject": "Рус. яз.",
+      "HoursPerWeek": 5,
+      "Teacher": "Турченко С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Лит. чт.",
+      "HoursPerWeek": 3,
+      "Teacher": "Турченко С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Род. рус. яз.",
+      "HoursPerWeek": 1,
+      "Teacher": "Турченко С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Лит. чт. на род. рус. яз",
+      "HoursPerWeek": 1,
+      "Teacher": "Турченко С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Математика",
+      "HoursPerWeek": 4,
+      "Teacher": "Турченко С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Окр. мир",
+      "HoursPerWeek": 2,
+      "Teacher": "Турченко С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Технология",
+      "HoursPerWeek": 1,
+      "Teacher": "Турченко С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Музыка",
+      "HoursPerWeek": 1,
+      "Teacher": "Турченко С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "ИЗО",
+      "HoursPerWeek": 1,
+      "Teacher": "Турченко С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Физ. культура",
+      "HoursPerWeek": 2,
+      "Teacher": "Турченко С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Англ. яз",
+      "HoursPerWeek": 2,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    }
+  ],
+  "Class3": [
+    {
+      "Subject": "Физ. культура",
+      "HoursPerWeek": 2,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Англ. яз",
+      "HoursPerWeek": 2,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Рус. яз",
+      "HoursPerWeek": 5,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Математика",
+      "HoursPerWeek": 4,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Лит. чт.",
+      "HoursPerWeek": 3,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Род. рус. яз.",
+      "HoursPerWeek": 1,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Лит. чт. на род. яз",
+      "HoursPerWeek": 1,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Окр. мир",
+      "HoursPerWeek": 2,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Технология",
+      "HoursPerWeek": 1,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Музыка",
+      "HoursPerWeek": 1,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "ИЗО",
+      "HoursPerWeek": 1,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    }
+  ],
+  "Class4": [
+    {
+      "Subject": "Рус. яз.",
+      "HoursPerWeek": 4,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Лит. чт.",
+      "HoursPerWeek": 4,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Род. рус. яз",
+      "HoursPerWeek": 1,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Лит. чт. на род. рус. яз.",
+      "HoursPerWeek": 1,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Математика",
+      "HoursPerWeek": 4,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Окр. мир",
+      "HoursPerWeek": 2,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Технология",
+      "HoursPerWeek": 1,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Музыка",
+      "HoursPerWeek": 1,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "ИЗО",
+      "HoursPerWeek": 1,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Англ. яз",
+      "HoursPerWeek": 2,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Физ. культура",
+      "HoursPerWeek": 3,
+      "Teacher": "Кучинская В.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "ОРКСЭ",
+      "HoursPerWeek": 1,
+      "Teacher": "Кобзева О.М.",
+      "Difficulty": ""
+    }
+  ],
+  "Class5": [
+    {
+      "Subject": "ИЗО",
+      "HoursPerWeek": 4,
+      "Teacher": "Чевычелова С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Биология",
+      "HoursPerWeek": 1,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "География",
+      "HoursPerWeek": 1,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Рус. яз.",
+      "HoursPerWeek": 5,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Род. рус. яз.",
+      "HoursPerWeek": 1,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Литература",
+      "HoursPerWeek": 3,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Физ. культура",
+      "HoursPerWeek": 2,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Математика",
+      "HoursPerWeek": 5,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "История",
+      "HoursPerWeek": 2,
+      "Teacher": "Кобзема О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "ОДНКНР",
+      "HoursPerWeek": 1,
+      "Teacher": "Кобзема О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Музыка",
+      "HoursPerWeek": 1,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Технология",
+      "HoursPerWeek": 2,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Род. лит.",
+      "HoursPerWeek": 1,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    }
+  ],
+  "Class6": [
+    {
+      "Subject": "ИЗО",
+      "HoursPerWeek": 4,
+      "Teacher": "Чевычелова С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Биология",
+      "HoursPerWeek": 1,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "География",
+      "HoursPerWeek": 1,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Рус. яз",
+      "HoursPerWeek": 5,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Род. рус. яз",
+      "HoursPerWeek": 1,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Литература",
+      "HoursPerWeek": 3,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Физ. культура",
+      "HoursPerWeek": 2,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Англ. яз",
+      "HoursPerWeek": 3,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "История",
+      "HoursPerWeek": 2,
+      "Teacher": "Кобзема О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Обществознание",
+      "HoursPerWeek": 2,
+      "Teacher": "Кобзема О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "ОДНКНР",
+      "HoursPerWeek": 1,
+      "Teacher": "Кобзема О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Математика",
+      "HoursPerWeek": 5,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Музыка",
+      "HoursPerWeek": 1,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Технология",
+      "HoursPerWeek": 2,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Род. лит.",
+      "HoursPerWeek": 1,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    }
+  ],
+  "Class7": [
+    {
+      "Subject": "ИЗО",
+      "HoursPerWeek": 4,
+      "Teacher": "Чевычелова С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Биология",
+      "HoursPerWeek": 1,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "География",
+      "HoursPerWeek": 2,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Рус. яз.",
+      "HoursPerWeek": 4,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Родн. рус. яз",
+      "HoursPerWeek": 1,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Литература",
+      "HoursPerWeek": 2,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Физ. культура",
+      "HoursPerWeek": 2,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Англ. яз",
+      "HoursPerWeek": 3,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "История",
+      "HoursPerWeek": 2,
+      "Teacher": "Кобзева О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Обществознание",
+      "HoursPerWeek": 1,
+      "Teacher": "Кобзева О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Математика",
+      "HoursPerWeek": 5,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Вероятность и статистика",
+      "HoursPerWeek": 1,
+      "Teacher": "Сорокина М.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Музыка",
+      "HoursPerWeek": 1,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Технология",
+      "HoursPerWeek": 2,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Род. лит.",
+      "HoursPerWeek": 1,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Физика",
+      "HoursPerWeek": 2,
+      "Teacher": "Кудрявина Е.Ю.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Информатика",
+      "HoursPerWeek": 1,
+      "Teacher": "Кудрявина Е.Ю.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Англ. яз.",
+      "HoursPerWeek": 3,
+      "Teacher": "Широкова М.Р.",
+      "Difficulty": ""
+    }
+  ],
+  "Class8": [
+    {
+      "Subject": "Рус. яз.",
+      "HoursPerWeek": 3,
+      "Teacher": "Чевычелова С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Литература",
+      "HoursPerWeek": 2,
+      "Teacher": "Чевычелова С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "ИЗО",
+      "HoursPerWeek": 4,
+      "Teacher": "Чевычелова С.А.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Биология",
+      "HoursPerWeek": 2,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Химия",
+      "HoursPerWeek": 2,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "География",
+      "HoursPerWeek": 2,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Второй ин. яз.",
+      "HoursPerWeek": 1,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "ОБЖ",
+      "HoursPerWeek": 1,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Физ. культура",
+      "HoursPerWeek": 2,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "История",
+      "HoursPerWeek": 2,
+      "Teacher": "Кобзева О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Обществознание",
+      "HoursPerWeek": 1,
+      "Teacher": "Кобзева О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Музыка",
+      "HoursPerWeek": 1,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Технология",
+      "HoursPerWeek": 1,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Физика",
+      "HoursPerWeek": 3,
+      "Teacher": "Кудрявина Е.Ю.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Информатика",
+      "HoursPerWeek": 1,
+      "Teacher": "Кудрявина Е.Ю.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Математика",
+      "HoursPerWeek": 5,
+      "Teacher": "Казакова Л.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Вероятность и статистика",
+      "HoursPerWeek": 1,
+      "Teacher": "Казакова Л.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Англ. яз",
+      "HoursPerWeek": 3,
+      "Teacher": "Широкова М.Р.",
+      "Difficulty": ""
+    }
+  ],
+  "Class9": [
+    {
+      "Subject": "Биология",
+      "HoursPerWeek": 2,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Химия",
+      "HoursPerWeek": 2,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "География",
+      "HoursPerWeek": 2,
+      "Teacher": "Шитикова С.Ф.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Рус. яз.",
+      "HoursPerWeek": 3,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Род. рус. яз.",
+      "HoursPerWeek": 1,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Литература",
+      "HoursPerWeek": 2,
+      "Teacher": "Шитикова Г.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Второй ин. яз.",
+      "HoursPerWeek": 1,
+      "Teacher": "Самохвалова Т.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "ОБЖ",
+      "HoursPerWeek": 1,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Физ. культура",
+      "HoursPerWeek": 2,
+      "Teacher": "Никандрова Д.С.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "История",
+      "HoursPerWeek": 3,
+      "Teacher": "Кобзева О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Обществознание",
+      "HoursPerWeek": 1,
+      "Teacher": "Кобзева О.М.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Технология",
+      "HoursPerWeek": 1,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Математика",
+      "HoursPerWeek": 2,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Вероятность и статистика",
+      "HoursPerWeek": 1,
+      "Teacher": "Горяйнова Л.Н.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Физика",
+      "HoursPerWeek": 3,
+      "Teacher": "Кудрявина Е.Ю.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Информатика",
+      "HoursPerWeek": 1,
+      "Teacher": "Кудрявина Е.Ю.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Математика",
+      "HoursPerWeek": 3,
+      "Teacher": "Казакова Л.В.",
+      "Difficulty": ""
+    },
+    {
+      "Subject": "Англ. яз",
+      "HoursPerWeek": 3,
+      "Teacher": "Широкова М.Р.",
+      "Difficulty": ""
+    }
+  ]
+}
